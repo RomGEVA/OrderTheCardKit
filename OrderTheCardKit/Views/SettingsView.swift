@@ -9,7 +9,7 @@ struct SettingsView: View {
     @State private var showResetConfirmation = false
     @ObservedObject var rewardSystem: RewardSystem
     
-    private let privacyURL = URL(string: "https://example.com/privacy")!
+    private let privacyURL = URL(string: "https://www.termsfeed.com/live/08d9c981-c436-4c3d-921c-bf33322d373a")!
     
     var body: some View {
         ZStack {
